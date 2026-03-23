@@ -2,7 +2,7 @@ def numerical_derivative(f,x,h=0.0001):
     return (f(x+h)-f(x))/h
 
 def f(x):
-    return x**2
+    return x**3
 
 
 #Central Difference
